@@ -1,4 +1,4 @@
- name: Resume ci Build
+name: Docker Image CI
 
 on:
   push:
