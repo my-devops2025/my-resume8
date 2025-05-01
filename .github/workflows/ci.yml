@@ -33,7 +33,7 @@ jobs:
          with:
            host: 3.94.159.174
            username: ec2-user
-           key: ${{secretes.KEY}}
+           key: ${{secrets.KEY}}
            script: |
                docker stop resume || echo ""
                docker rm resume || echo ""
